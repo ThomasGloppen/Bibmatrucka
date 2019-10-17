@@ -1,0 +1,45 @@
+header {
+    margin-top: 4em;
+    padding-top: 4em;
+}
+
+#meny {
+    list-style: none;
+    padding: 10px;
+    position: fixed;
+    left: 0;
+    top: -22px;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+}
+
+#meny li {
+	display:block;
+	width:120px;
+    float:left;
+    height: 1em;
+    padding: 5px;
+	margin-left:20px;
+    border:1px solid #000;
+    background-color: rgb(248, 248, 248);
+    text-align: center;
+}
+
+#meny li:hover {
+    background-color: rgba(255, 255, 255, 0);
+    transition: 1s;
+}
+
+#meny li:hover a:visited,
+#meny li:hover a,
+#meny li a:hover {
+    color:white;
+}
+
+#meny li img {
+    height: 20px;
+}
+
+#meny li a:visited {
+    color: rgb(0, 0, 0);
+}
