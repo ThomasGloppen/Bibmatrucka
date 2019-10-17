@@ -60,16 +60,30 @@ h2 {
     color: whitesmoke;
     text-align: center;
     font-size: 4em;
+    margin: 12px;
 }
 
 h3 {
     color: whitesmoke;
     text-align: center;
-    font-size: 4em; 
+    font-size: 4em;
+    margin: 12px; 
 }
 
 h4 {
     color: whitesmoke;
     text-align: center;
     font-size: 4em;
+    margin: 12px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#macs {
+    color: whitesmoke;
 }
