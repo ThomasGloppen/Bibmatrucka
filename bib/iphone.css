@@ -52,3 +52,43 @@ h1 {
     color: whitesmoke;
     text-align: center;
 }
+
+#iphone {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-rows: 300px 300px;
+  
+    grid-template-areas:
+      "i11 pro   promax"
+      "xr  xs    xsmax"
+}
+
+#i11 {
+    grid-area: i11;
+    background-color: aqua;
+}
+
+#pro {
+    grid-area: pro;
+    background-color: blue;
+}
+
+#promax {
+    grid-area: promax;
+    background-color: green;
+}
+
+#xr {
+    grid-area: xr;
+    background-color: red;
+}
+
+#xs {
+    grid-area: xs;
+    background-color: yellow;
+}
+
+#xsmax {
+    grid-area: xsmax;
+    background-color: palevioletred;
+}
