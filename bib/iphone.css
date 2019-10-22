@@ -55,40 +55,98 @@ h1 {
 
 #iphone {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows: 300px 300px;
   
     grid-template-areas:
-      "i11 pro   promax"
-      "xr  xs    xsmax"
+      "i11 i112 pro pro2 promax promax2"
+      "xr  xr2  xs  xs2  xsmax  xsmax2"
 }
 
 #i11 {
     grid-area: i11;
-    background-color: aqua;
+    border-top: solid whitesmoke 1px;
+    border-left: solid whitesmoke 1px;
 }
 
 #pro {
     grid-area: pro;
-    background-color: blue;
+    border-top: solid whitesmoke 1px;
 }
 
 #promax {
     grid-area: promax;
-    background-color: green;
+    border-top: solid whitesmoke 1px;
 }
 
 #xr {
     grid-area: xr;
-    background-color: red;
+    border-bottom: solid whitesmoke 1px;
+    border-left: solid whitesmoke 1px;
 }
 
 #xs {
     grid-area: xs;
-    background-color: yellow;
+    border-bottom: solid whitesmoke 1px; 
 }
 
 #xsmax {
     grid-area: xsmax;
-    background-color: palevioletred;
+    border-bottom: solid whitesmoke 1px;
+}
+#i112 {
+    grid-area: i112;
+    border-top: solid whitesmoke 1px;
+    color: whitesmoke;
+}
+
+#pro2 {
+    grid-area: pro2;
+    border-top: solid whitesmoke 1px;
+    color: whitesmoke;
+}
+
+#promax2 {
+    grid-area: promax2;
+    border-top: solid whitesmoke 1px;
+    border-right: solid whitesmoke 1px;
+    color: whitesmoke;
+}
+
+#xr2 {
+    grid-area: xr2;
+    border-bottom: solid whitesmoke 1px;
+    color: whitesmoke;
+}
+
+#xs2 {
+    grid-area: xs2;
+    border-bottom: solid whitesmoke 1px; 
+    color: whitesmoke;
+}
+
+#xsmax2 {
+    grid-area: xsmax2;
+    border-right: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 1px;
+    color: whitesmoke;
+}
+
+img {
+    position: relative;
+    height: 300px;
+}
+
+#pro img {
+    height: 275px;
+    top: 25px;
+}
+
+h2 {
+    position: relative;
+    text-align: center;
+}
+
+li {
+    font-size: 1.2em
 }
