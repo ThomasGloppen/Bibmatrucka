@@ -84,6 +84,23 @@ h4 {
     width: 50%;
   }
 
-#macs {
+#Macs {
+  
+    text-align: justify;
     color: whitesmoke;
+
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  ul {
+       list-style-type: none; 
+}
+
+td,th {
+    padding-left:10px;
+    padding-right: 20px;
 }
