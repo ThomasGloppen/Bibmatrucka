@@ -2,8 +2,8 @@
 
 
 header {
-    margin-top: 4em;
-    padding-top: 4em;
+    margin-top: 3em;
+    padding-top: 3em;
 }
 
 #meny {
@@ -54,4 +54,36 @@ body {
 h1 {
     color: whitesmoke;
     text-align: center;
+}
+
+h2 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    margin: 12px;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    margin: 12px; 
+}
+
+h4 {
+    color: whitesmoke;
+    text-align: center;
+    font-size: 4em;
+    margin: 12px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+#macs {
+    color: whitesmoke;
 }
