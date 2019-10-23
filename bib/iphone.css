@@ -65,81 +65,102 @@ h1 {
 
 #i11 {
     grid-area: i11;
-    border-top: solid whitesmoke 1px;
-    border-left: solid whitesmoke 1px;
+    border-top: solid whitesmoke 2px;
+    border-left: solid whitesmoke 2px;
+    border-bottom: solid whitesmoke 1px;
 }
 
 #pro {
     grid-area: pro;
-    border-top: solid whitesmoke 1px;
+    border-top: solid whitesmoke 2px;
+    border-left: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 1px;
 }
 
 #promax {
     grid-area: promax;
-    border-top: solid whitesmoke 1px;
+    border-top: solid whitesmoke 2px;
+    border-left: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 1px;
 }
 
 #xr {
     grid-area: xr;
-    border-bottom: solid whitesmoke 1px;
-    border-left: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 2px;
+    border-left: solid whitesmoke 2px;
+    border-top: solid whitesmoke 1px;
 }
 
 #xs {
     grid-area: xs;
-    border-bottom: solid whitesmoke 1px; 
+    border-bottom: solid whitesmoke 2px; 
+    border-left: solid whitesmoke 1px;
+    border-top: solid whitesmoke 1px;
 }
 
 #xsmax {
     grid-area: xsmax;
-    border-bottom: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 2px;
+    border-left: solid whitesmoke 1px;
+    border-top: solid whitesmoke 1px;
 }
 #i112 {
     grid-area: i112;
-    border-top: solid whitesmoke 1px;
+    border-top: solid whitesmoke 2px;
+    border-right: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 1px;
     color: whitesmoke;
 }
 
 #pro2 {
     grid-area: pro2;
-    border-top: solid whitesmoke 1px;
+    border-top: solid whitesmoke 2px;
+    border-right: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 1px;
     color: whitesmoke;
 }
 
 #promax2 {
     grid-area: promax2;
-    border-top: solid whitesmoke 1px;
-    border-right: solid whitesmoke 1px;
+    border-top: solid whitesmoke 2px;
+    border-right: solid whitesmoke 2px;
+    border-bottom: solid whitesmoke 1px;
     color: whitesmoke;
 }
 
 #xr2 {
     grid-area: xr2;
-    border-bottom: solid whitesmoke 1px;
+    border-bottom: solid whitesmoke 2px;
+    border-top: solid whitesmoke 1px;
+    border-right: solid whitesmoke 1px;
     color: whitesmoke;
 }
 
 #xs2 {
     grid-area: xs2;
-    border-bottom: solid whitesmoke 1px; 
+    border-bottom: solid whitesmoke 2px; 
+    border-top: solid whitesmoke 1px;
+    border-right: solid whitesmoke 1px;
     color: whitesmoke;
 }
 
 #xsmax2 {
     grid-area: xsmax2;
-    border-right: solid whitesmoke 1px;
-    border-bottom: solid whitesmoke 1px;
+    border-right: solid whitesmoke 2px;
+    border-bottom: solid whitesmoke 2px;
+    border-top: solid whitesmoke 1px;
     color: whitesmoke;
 }
 
-img {
+#iphone img {
     position: relative;
     height: 300px;
+    top: -22px;
 }
 
 #pro img {
     height: 275px;
-    top: 25px;
+    top: 8px;
 }
 
 h2 {
@@ -150,3 +171,4 @@ h2 {
 li {
     font-size: 1.2em
 }
+ 
