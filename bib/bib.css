@@ -63,7 +63,7 @@ h1 {
   }
 
   #release {
-      animation: pop 3s linear;
+      animation: pop 1s linear;
       animation-fill-mode: forwards;
       position: absolute;
       background-image: url("newest.png");
