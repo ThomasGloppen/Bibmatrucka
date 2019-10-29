@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,13 @@
     <title>Watch</title>
     <link rel="stylesheet" href="watch.css">
 </head>
+
 <body>
     <header>
         <h1>Apple Watch</h1>
-        <h2>Series 5</h2>
+        <div id="os">
+            <h2>Series 5</h2>
+        </div>
         <div id="main">
             <ul id="meny">
                 <li><a href="bib.html"><img src="logo.png" alt="logo"></a></li>
@@ -22,21 +26,38 @@
         </div>
     </header>
     <main>
-        <img src="Apple watch.png" alt="Applewatch" class="center">
+        <div id="bilde">
+            <img src="Apple watch.png" alt="Applewatch" class="center">
+        </div>
+        <p>Lag din egen Apple Watch</p>
+        <div id="form">
+        <form>
+            <div><label for="størrelse">Velg Størrelse </label>
+                <select id="størrelse" name="størrelse">
+                    <option value="S">S</option>
+                    <option value="M">M</option>
+                    <option value="L">L</option>
+                </select>
+            </div>
+            <div><label for="urkasse">Urkasse </label>
+                <select id="urkasse" name="urkasse">
+                    <option value="40mm">40mm</option>
+                    <option value="44mm">44mm</option>
+                </select>
+            </div>
+            <div><label for="rem">Rem </label>
+                <select id="rem" name="rem">
+                    <option value="hvit">Hvit</option>
+                    <option value="svart">Svart</option>
+                    <option value="rød">Rød</option>
+                </select>
+            </div>
+        </form>
+    </div>
     </main>
     <footer>
-       <div id="watch" class="center">
-        <div>
-            <p>Lag din egen Apple Watch</p>
-            <ul>
-                <li>Velg: egen størrelse</li>
-                <li>Velg: egen urkasse</li>
-                <li>Velg: egen rem</li>
-                <li>Pris: fra kr 4 690,00</li>
-            </ul>
-        </div>
-        </table>
-       </div>
+             
     </footer>
 </body>
+
 </html>

@@ -75,4 +75,46 @@ h2 {
     color: whitesmoke;
   }
 
+  #bilde {
+    animation: slide 1.3s linear;
+    animation-fill-mode: forwards;
+    position: absolute;
+    width: 50%;
+    height: 800px;
+}
 
+@keyframes slide {
+    0% {top: 200px; left: -100vh;}
+    100% {top: 200px; left: 25%;}
+}
+
+#os {
+    animation: slide2 1.1s linear;
+    animation-fill-mode: forwards;
+    position: absolute;
+    background-image: url("Appl\ watch.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 800px;
+}
+
+@keyframes slide2 {
+    0% {top: 200px; left: 200vh;}
+    100% {top: 200px; left: 25%;}
+}
+
+form div {
+    padding-top: 1.01em;
+}
+
+form {
+    color: whitesmoke;
+}
+
+#form {
+    width: 50%;
+    left: 25%;
+    top: 400px;
+}
