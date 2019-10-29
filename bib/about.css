@@ -44,6 +44,10 @@ header {
     color: rgb(0, 0, 0);
 }
 
+#meny li a {
+    color: rgb(0, 0, 0);
+}
+
 form div {
     padding-top: 1.01em;
 }
