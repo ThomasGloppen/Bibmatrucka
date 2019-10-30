@@ -76,7 +76,7 @@ h2 {
   }
 
   #bilde {
-    animation: slide 1.3s linear;
+    animation: slide 1.5s linear;
     animation-fill-mode: forwards;
     position: absolute;
     width: 50%;
@@ -89,7 +89,7 @@ h2 {
 }
 
 #os {
-    animation: slide2 1.1s linear;
+    animation: slide2 1.3s linear;
     animation-fill-mode: forwards;
     position: absolute;
     background-image: url("Appl\ watch.png");
@@ -105,6 +105,11 @@ h2 {
     100% {top: 200px; left: 25%;}
 }
 
+#skjema {
+    position: absolute;
+    top: 500px; left: 45%;
+}
+
 form div {
     padding-top: 1.01em;
 }
@@ -113,8 +118,3 @@ form {
     color: whitesmoke;
 }
 
-#form {
-    width: 50%;
-    left: 25%;
-    top: 400px;
-}
